@@ -2,7 +2,8 @@
 
 import java.util.Scanner;
 public class array8{
-	// public static void update(int marks[]){
+    
+    // public static void update(int marks[]){
     //     for(int i=0;i<marks.length;i++){
     //         //1.arrays are call by reference
     //         marks[i]=marks[i]+1;
@@ -481,31 +482,31 @@ public class array8{
         //         startcol++;
         //         startrow++;
         //         endcol--;
-OAOAOA        //         endrow--;
+        //         endrow--;
               
         //     }
-OA        //       System.out.println();
-OA
+        //       System.out.println();
+
         // }
 
-OA
-OA//diagonal sum
+
+//diagonal sum
 // public static int diagonalsum(int matrix[][]){
 //     //brute force code big oh of nsqyare
-OA//     int sum=0;
+//     int sum=0;
 
     // for(int i=0;i<matrix.length;i++){
-OA    //     for(int j=0;j<matrix[0].length;j++){
+    //     for(int j=0;j<matrix[0].length;j++){
     //         if(i==j){
     //             sum += matrix[i][j];
     //         }
     //         else if((i+j) == matrix.length-1){
     //             sum += matrix[i][j];
-OA    //         }
+    //         }
     //     }
     // }
 
-OA
+
     //optimised code
 //     for(int i=0;i<matrix.length;i++){           //O(n)
 //         //primary diagonal
@@ -526,7 +527,7 @@ public class array8{
 
 //         while(row<matrix.length && col >= 0){
 //             if(matrix[row][col] == key){
-OA//                 System.out.println("found key at (" + row +","+col +")");
+//                 System.out.println("found key at (" + row +","+col +")");
 //                 return true;
 //             }
 //             else if(key < matrix[row][col]){
@@ -549,51 +550,51 @@ public class array8{
 //         for(int j=0;j<arr[0].length;j++){
 //             if(key == arr[i][j]){
 //                 count++;
-OB//             }
+//             }
 //         }
-OB//     }
+//     }
 //    return count;
 // }
 
-OB// 2.
-OB// public static int sumofsecondrow(int nums[][]){    //mycode o(n^2)
+// 2.
+// public static int sumofsecondrow(int nums[][]){    //mycode o(n^2)
 //     int sum=0;
-OB//     // for(int i=0;i<nums.length;i++){
-OB//     //     for(int j=0;j<nums[0].length;j++){
+//     // for(int i=0;i<nums.length;i++){
+//     //     for(int j=0;j<nums[0].length;j++){
 //     //         if(i == nums.length-2){
-OB//     //             sum=sum+nums[i][j];
+//     //             sum=sum+nums[i][j];
 //     //         }
-OB//     //     }
+//     //     }
 //     // }
 
-OB
-OB//     //optimized code
+
+//     //optimized code
 //     //sum of 2nd row
 //     for(int j=0;j<nums[0].length;j++){        //o(n)
-OB//         sum += nums[1][j];  
+//         sum += nums[1][j];  
 //     }
 //     return sum;
-OBOBOBOBOBOB// }
+// }
 
 
 //transpose of a mtarix
-OBOBOBOB
+
 // public static void printmatrix(int [][] matrix){        //this function will print both matrix as well as the transpose depending on the matrix that we pass in the bracket of the function
-OBOBOBOB//     System.out.println("the matrix is:-");
-OBOB//     for(int i=0;i<matrix.length;i++){
+//     System.out.println("the matrix is:-");
+//     for(int i=0;i<matrix.length;i++){
 //         for(int j=0;j<matrix[0].length;j++){
-OB//             System.out.print(matrix[i][j]+"  ");
+//             System.out.print(matrix[i][j]+"  ");
 //         }
 //         System.out.println();
-OBOB    
+    
 //     }    
 
 // }
 
-OB
+
 
           // 2D arrays
-OB         public static void main(String[] args) {     
+         public static void main(String[] args) {     
         Scanner sc =new Scanner(System.in);
         // //CREATION OF 2D ARRAYS
         
@@ -610,25 +611,25 @@ public class array8{
         //     for(int j=0;j<m;j++){  //columnswise
                 
         //     System.out.print( matrix[i][j]+" ");   //printing the data
-OBOB        //     }
-OBOB        //     System.out.println();
-OBOB        // }
-OBOB        // System.out.println("enter key:");
+        //     }
+        //     System.out.println();
+        // }
+        // System.out.println("enter key:");
         // int key=sc.nextInt();
-OBOBOB        // // search(matrix, key);
+        // // search(matrix, key);
 
-OB
-OB
+
+
     //sprial matrix
-OBOB    // int matrix[][]={{1,2,3,4},
-OB    //                 {5,6,7,8},
-OB    //                 {9,10,11,12},
+    // int matrix[][]={{1,2,3,4},
+    //                 {5,6,7,8},
+    //                 {9,10,11,12},
     //                 {13,14,15,16} };
 
 
-OBOBOB
+
     //     // printspiralmatrix(matrix);
-OBOB    //     int dsum=diagonalsum(matrix);
+    //     int dsum=diagonalsum(matrix);
     //     System.out.println("the diagonal sum is:"+ dsum);
 
 
@@ -680,9 +681,8 @@ public class array8{
     // }
     //print transpose
     //  printmatrix(transpose);
-OBOBOBOB    
-OB    // System.out.println("the transpose of matrix is"+ trans);
+    
+    // System.out.println("the transpose of matrix is"+ trans);
   
 
      }}
->>>>>>> test2
