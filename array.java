@@ -102,7 +102,7 @@ public class array8{
 //     }
 //     System.out.println();
 // }
-// System.out.println("total subarrays is:"+totalsub);
+// System.out.println("total subarrays are given to be:"+totalsub);
 // }
 
 
