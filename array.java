@@ -118,18 +118,18 @@ public class array8{
         // marks[1]=sc.nextInt();
         // marks[2]=sc.nextInt();
 
-        // System.out.println("phy:" + marks[0]);
-        // System.out.println("chem:" + marks[1]);
-        // System.out.println("bio:" + marks[2]);
+        // System.out.println("phyics" + marks[0]);
+        // System.out.println("chemistry:" + marks[1]);
+        // System.out.println("biology:" + marks[2]);
 
         // //update in array
         // marks[1]=100;
 
-        //  System.out.println("updated chem:" + marks[1]);
+        //  System.out.println("updated chemistry marks:" + marks[1]);
 
         // //caluclations in array
         // int percentage=(marks[0]+marks[1]+marks[2])/3 ;
-        // System.out.println("percentge " +percentage+ "%");
+        // System.out.println("percentge is :- " +percentage+ "%");
 
 
         // //length of array
